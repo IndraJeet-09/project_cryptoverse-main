@@ -2,7 +2,7 @@ import React from 'react';
 import { Switch, Route, Link } from 'react-router-dom';
 import { Layout, Typography, Space } from 'antd';
 
-import {  Homepage, News, Cryptocurrencies, CryptoDetails, Navbar, Converter, TopMovers, Portfolio, LearnCrypto } from './components';
+import {  Homepage, Cryptocurrencies, CryptoDetails, Navbar, Converter, TopMovers, Portfolio, LearnCrypto } from './components';
 import './App.css';
 
 const App = () => (
@@ -48,8 +48,6 @@ const App = () => (
         </Typography.Title>
         <Space>
           <Link to="/">Home</Link>
-          {/* <Link to="/exchanges">Exchanges</Link> */}
-          {/* <Link to="/news">News</Link> */}
           <Link to="/cryptocurrencies">Cryptocurrencies</Link>
           <Link to="/portfolio">Portfolio</Link> 
           <Link to="/converter">Converter</Link>
